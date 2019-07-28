@@ -30,7 +30,7 @@ import javax.persistence.MappedSuperclass;
 public class BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    protected Integer id;
+    protected Inteer id;
 
     public Integer getId() {
         return id;
